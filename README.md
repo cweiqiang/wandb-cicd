@@ -23,3 +23,15 @@ https://docs.github.com/en/actions/learn-github-actions/variables
 
   - Workflow Billing
 https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration
+
+For code debugging, refer to payload in chatops.yaml output
+```jobs:
+  see-comment:
+    # this filters for only comments made on a pull request
+    if: (github.event.issue.pull_request != null)
+    runs-on: ubuntu-latest
+    steps:
+    - name: see payload # this step is for debugging purposes only, so you can see the payload. 
+      run: echo "PAYLOAD:\n${PAYLOAD}\n"
+      env:
+        PAYLOAD: ${{ toJSON(github.event) }}```
