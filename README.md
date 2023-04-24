@@ -1,6 +1,6 @@
 # wandb-cicd
 
-- Small edit to Git Checkout, publish and pull request
+- Small edit to Git Checkout, publish and pull requests
 
 [Weights-and-Biases-CICD-tutorial](https://www.wandb.courses/courses/take/ci-cd-for-machine-learning/lessons)
 
