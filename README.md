@@ -1,5 +1,7 @@
 # wandb-cicd
 
+- Small change to test pull request from VSCode to Github
+
 [Weights-and-Biases-CICD-tutorial](https://www.wandb.courses/courses/take/ci-cd-for-machine-learning/lessons)
 
 These are resources for CICD
